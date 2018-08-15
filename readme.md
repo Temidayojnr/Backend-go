@@ -1,6 +1,6 @@
 BACKEND-GO
 
-This is was built by Temidayo Onifade for the primary aim of sharing my software Engineering journey as a backend developer. 
+This was built by Temidayo Onifade for the primary aim of sharing my software Engineering journey as a backend developer. 
 
 Backend-go is not out here to replace anyother available technical blog out there but just to share the tools i work with, new tools i learnt to use and open source projects i've worked on.
 
