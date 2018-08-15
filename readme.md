@@ -2,7 +2,7 @@ BACKEND-GO
 
 This was built by Temidayo Onifade for the primary aim of sharing my software Engineering journey as a backend developer. 
 
-Backend-go is not out here to replace anyother available technical blog out there but just to share the tools i work with, new tools i learnt to use and open source projects i've worked on.
+Backend-go is not out here to replace any available technical blog but just to share the tools i work with, new tools i learnt to use and open source projects i've worked on.
 
 To initialize the project: git clone https://Temidayojnr@bitbucket.org/Temidayojnr/backend-go.git 
 
