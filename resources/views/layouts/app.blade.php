@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +17,7 @@
 
     <!-- Styles -->
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <link rel="stylesheet" href="{{asset('css/custom.css')}}">
+        <link rel="stylesheet" href="{{asset('css/custom.css')}}">
 </head>
 
     @include('inc.navbar')
@@ -27,6 +25,8 @@
         @include('inc.messages')
         @yield('content')
     </div>
+    
+    
     <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
     <script>
         CKEDITOR.replace( 'article-ckeditor' );
@@ -35,4 +35,6 @@
     <body>
 
     </body>
+        
+        @include('inc.footer')
 </html>
