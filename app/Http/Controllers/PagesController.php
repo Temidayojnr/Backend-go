@@ -10,7 +10,8 @@ class PagesController extends Controller
     public function index()
     {
         $title = 'Backend Go';
-        $posts = Post::all();
+        $posts = Post::Orderby('created_at','desc');
+        $posts = Post::take(6)->get();
         return view('pages.index', compact('posts','title'));
     }
 

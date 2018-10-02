@@ -16,4 +16,6 @@ Run "php artisan migrate"
 
 Run "php artisan make:auth" for authentication.
 
+To run the storage functionality Run "php artisan storage:link"
+
 Then start the server by running "php artisan serve" which will be served on https://localhost:8000 or run it on your port of choice.

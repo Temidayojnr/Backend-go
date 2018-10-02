@@ -27,3 +27,6 @@ Route::resource('posts', 'PostsController');
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index');
+
+//Route::post('comment/store', 'CommentsController@update')->name('comment.store');
+

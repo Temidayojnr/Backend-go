@@ -26,7 +26,7 @@
                 </div>
                 <div class="card-desc">
                     <h3>{{$post->title}}</h3>
-                    <p>{{ str_limit($post->body, 20) }}</p>
+                    <p>{{ str_limit($post->body, 50) }}</p>
                         <a href="/posts/{{$post->id}}" class="btn-card">Read more</a>   
                 </div>
             </div>
@@ -34,10 +34,12 @@
 
         @endforeach
 
+
     @else
         <p>No Post found</p>
     @endif
         
+    @include('inc.footer')
 
 @endsection
 

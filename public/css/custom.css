@@ -95,7 +95,7 @@ section{
     color: #fff;
 }
 .btn-card:hover {
-    background: orange;
+    background: #0099CC;
 }
 a.btn-card {
     text-decoration: none;
