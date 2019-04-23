@@ -27,7 +27,9 @@
         @include('inc.messages')
         @yield('content')
     </div>
-    
+
+    @include('inc.footer')
+
     
     <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
     <script>
@@ -37,6 +39,4 @@
         <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
-
-    @include('inc.footer')
 </html>
